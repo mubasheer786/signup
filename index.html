@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgistration Form</title>
+    <style>
+        #task1{
+            background-color: rgb(237, 139, 139);
+            width: 300px;
+            padding: 25px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .task2{
+            margin: 0;
+            margin-top: 12px;
+            margin-bottom: 4px;
+        }
+        .task3{
+            width: 100%;
+        }
+        .abs :hover{
+            background-color: rgb(0, 171, 129);
+        }
+       
+    </style>
+   <body style="background-color: lightblue;">
+    <h1 style="text-align: center;">Sign Up</h1>
+    <form id="task1">
+      <div>
+        <p class="task2">Full Name :</p>
+        <input class="task3" type="text" name="full-name">
+      </div>
+      <div>
+       <p class="task2"> Email  :</p>
+        <input class="task3" type="email" name="email">
+      </div>
+      <div>
+       <p class="task2"> Password :</p>
+        <input class="task3" type="password" name="password">
+      </div>
+      <div>
+        <p class="task2">Confirm Password :</p>
+        <input class="task3" type="password" name="confirm-password">
+      </div>
+      
+      <div>
+       <p class="task2"> Gender:</p>
+        <input type="radio" name="male" value="male">Male 
+      </div>
+      <input type="radio" name="Female" value="male">FeMale 
+      </div>
+      <input type="radio" name="other" value="male">other
+      </div>
+      <div>
+        <p class="task2">Security Question :</p>
+        <select name="Security-question">
+            <option value="nick-name">NIck name?</option>
+            <option value="pet-name">Pet name?</option>
+            <option value="friends-name">friends name?</option>
+        </select>   
+      </div>
+
+      <div>
+        <textarea name="answer"  cols="30" rows="10"></textarea>
+      </div>
+      <div class="abs">
+        <input type="checkbox" name="terms-condition" value="accept">I agree to terms and condition <br>
+        <br>
+        <br>
+        <input  type="submit" value="register">
+      </div>
+
+</body>
+</html>
